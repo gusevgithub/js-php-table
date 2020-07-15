@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.myForm {
+  margin-top: 40px;
+}
+
+select,
+input {
+  padding: 3px;
+  font-size: 15px;
+  max-width: 140px;
+}
+input {
+  max-width: 140px;
+}
+
+button {
+  cursor: pointer;
+  background-color: lightskyblue;
+  font-size: 16px;
+  padding: 4px 8px;
+  border: 1px solid lightslategrey;
+  border-radius: 4px;
+}
+
+.table {
+  text-align: center;
+  margin-top: 30px;
+  min-height: 200px;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+table tr td,
+table tr th {
+  padding: 6px 12px;
+  border: 1px solid black;
+}
+
+.pagination ul {
+  display: block;
+}
+ul li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  
+}
+
+.link,
+.prev,
+.next {
+  display: 'none';
+  vertical-align: top;
+  font-size: 17px;
+  border: 1px solid black;
+  width: auto;
+  height: 24px;
+  line-height: 24px;
+  margin: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+  color: black;
+  z-index: 1;
+  background-color: lightblue;
+}
+.pink {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  border: 1px solid black;
+  width: auto;
+  height: 24px;
+  line-height: 24px;
+  margin: 3px;
+  cursor: pointer;
+  color: black;
+  z-index: 1;
+  background-color: pink;
+}
