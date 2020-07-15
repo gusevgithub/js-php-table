@@ -24,13 +24,13 @@ class Config
      * Database user
      * @var string
      */
-    const DB_USER = 'root';
+    const DB_USER = '';
 
     /**
      * Database password
      * @var string
      */
-    const DB_PASSWORD = 'root';
+    const DB_PASSWORD = '';
 
 }
 
